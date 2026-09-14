@@ -1,0 +1,3 @@
+Run
+wget run https://raw.githubusercontent.com/Kvass134/srunix-utils/refs/heads/main/Corepatch/patcher.lua
+to patch your kernel shell to be able to run CC Tweaked programs
