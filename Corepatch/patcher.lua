@@ -8,5 +8,5 @@ local content2 = http.get("https://raw.githubusercontent.com/Kvass134/srunix-uti
 local container2 = fs.open("/srunix/compat.lua", "w")
 container2.write(content2.readAll())
 content2.close()
-container1.close()
+container2.close()
 print("Patched!")
